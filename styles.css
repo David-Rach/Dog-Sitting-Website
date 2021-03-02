@@ -1,0 +1,341 @@
+
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+#Jumbotron{
+    width: 100%;
+    max-height: 800px;
+    height: 100%;
+
+    display: block;
+    overflow: auto;
+
+    text-align: center;
+    position: relative;
+    background: linear-gradient(90deg, rgba(0,0,0,0.896796218487395) 0%, rgba(0,0,0,0.7287289915966386) 19%, rgba(0,0,0,0) 100%) , url("assets/main-banner.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+#Jumbotron h1{
+    font-family:'Quicksand';
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 45px;
+    position: absolute;
+    color: #FFFFFF;
+    top: 250px;
+    left: 300px;
+ }
+
+ #Jumbotron h2{
+    font-family:'Quicksand';
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    top: 320px;
+    left: 300px;
+    max-width: 550px;
+    color: #FFFFFF;
+    word-wrap: break-word;
+    text-align: left;
+ }
+
+ #jumbo-btn{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+
+ }
+
+ #jumbo-btn h2{
+    font-family:'Quicksand';
+    font-weight: 700px;
+    font-size: 18px;
+    background-color: #de6c17;
+    border-radius: 4px;
+    min-width: 100px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+ }
+
+ #divider{
+     position: absolute;
+     width: 100%;
+     top: 750px;
+     height: 50px;
+ }
+
+ #services{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+
+ .section{
+    font-family:'Quicksand';
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+ }
+
+ .section h1{
+    font-family: "Quicksand";
+    font-size: 45px;
+    font-weight: 700;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #36413c;
+ }
+
+ .section h2{
+    font-family: "Quicksand";
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5e6e66;
+    line-height: 40px;
+ }
+
+ .item{
+    max-width: 500px;
+    text-align: left;
+    box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.item img{
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.item h1{
+   font-family:'Quicksand';
+   font-size: 28px;
+   color: #36413c;
+   text-align: left;
+   margin: 0px;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-bottom: 0px;
+   
+}
+
+.item p{
+    font-family:'Quicksand';
+    font-size: 18px;
+    color: #5e6e66;
+    margin:0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 25px;
+ }
+
+ .item h2{
+    font-family:'Quicksand';
+    font-size: 18px;
+    color: #5e6e66;
+    margin:0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 25px;
+    color: #de6c17;
+ }
+
+ @media(max-width: 961px){
+    #Jumbotron{
+        width: 100%;
+        max-height: 400px;
+        height: 100%;
+    
+        display: block;
+        overflow: auto;
+    
+        text-align: center;
+        position: relative;
+        background: linear-gradient(90deg, rgba(0,0,0,0.896796218487395) 0%, rgba(0,0,0,0.7287289915966386) 19%, rgba(0,0,0,0) 100%) , url("assets/main-banner.png");
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position-x: 0px;
+
+        overflow: hidden;
+    }
+    
+    #Jumbotron h1{
+        font-family:'Quicksand';
+        font-weight: bold;
+        font-weight: 30px;
+        font-size: 35px;
+        position: absolute;
+        color: #FFFFFF;
+        top: 100px;
+        left: 40px;
+        margin: 5px;
+        padding: 0px;
+     }
+    
+     #Jumbotron h2{
+        font-family:'Quicksand';
+        font-weight: 500px;
+        font-size: 20px;
+        position: absolute;
+        top: 140px;
+        left: 40px;
+        color: #FFFFFF;
+        word-wrap: break-word;
+        text-align: left;
+        margin: 5px;
+     }
+
+     #jumbo-btn{
+        position: absolute;
+        top: 80px;
+        left: 0px;
+    
+     }
+    
+     #jumbo-btn h2{
+        font-family:'Quicksand';
+        font-weight: 700px;
+        font-size: 18px;
+        background-color: #de6c17;
+        border-radius: 4px;
+        min-width: 100px;
+        width: auto;
+        padding: 10px;
+        text-align: center;
+     }
+
+     #divider{
+        position: absolute;
+        width: 100%;
+        top: 350px;
+    }
+
+    #services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+        border-radius: 4px;
+        max-width: none;
+        margin: 50px;
+        margin-bottom: 0px;
+    }
+
+    .item img{
+        max-width: 300px;
+        height: 100%;
+    }
+ }
+
+ @media(max-width: 651px){
+    #Jumbotron{
+        width: 100%;
+        max-height: 400px;
+        height: 100%;
+    
+        display: block;
+        overflow: auto;
+    
+        text-align: center;
+        position: relative;
+        background: linear-gradient(90deg, rgba(0,0,0,0.896796218487395) 0%, rgba(0,0,0,0.7287289915966386) 19%, rgba(0,0,0,0) 100%) , url("assets/main-banner.png");
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position-x: -300px;
+
+        overflow: hidden;
+    }
+    
+    #Jumbotron h1{
+        font-family:'Quicksand';
+        font-weight: bold;
+        font-weight: 30px;
+        font-size: 35px;
+        position: absolute;
+        color: #FFFFFF;
+        top: 100px;
+        left: 0px;
+        margin: 5px;
+        padding: 0px;
+     }
+    
+     #Jumbotron h2{
+        font-family:'Quicksand';
+        font-weight: 500px;
+        font-size: 20px;
+        position: absolute;
+        top: 140px;
+        left: 0px;
+        color: #FFFFFF;
+        word-wrap: break-word;
+        text-align: left;
+        margin: 5px;
+     }
+
+     #jumbo-btn{
+        position: absolute;
+        top: 80px;
+        left: 0px;
+    
+     }
+    
+     #jumbo-btn h2{
+        font-family:'Quicksand';
+        font-weight: 700px;
+        font-size: 18px;
+        background-color: #de6c17;
+        border-radius: 4px;
+        min-width: 100px;
+        width: auto;
+        padding: 10px;
+        text-align: center;
+     }
+
+    #services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .item{
+        display:block;
+        text-align: left;
+        box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+        border-radius: 4px;
+        margin: auto;
+        margin-bottom: 50px;
+        max-width: 300px;
+        max-height: none;
+    }
+
+    .item img{
+        width: 100%;
+        height: auto;
+    }
+
+    #divider{
+        position: absolute;
+        width: 100%;
+        top: 350px;
+    }
+ }
